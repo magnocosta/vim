@@ -7,6 +7,8 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+filetype indent on
+
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kieen/ctrlp.vim'
@@ -66,4 +68,11 @@ set laststatus=2
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 set t_Co=256
+
+
+"==================================================================================
+" Configurando o plugin SNIPMATE
+"==================================================================================
+autocmd BufNewFile,BufRead *.html.erb set filetype=html
+autocmd BufNewFile,BufRead *.js.* set filetype=js
 
