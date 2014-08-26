@@ -11,7 +11,7 @@ filetype indent on
 
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
-Bundle 'kieen/ctrlp.vim'
+Bundle 'kien/ctrlp.vim'
 Bundle 'bling/vim-airline'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'msanders/snipmate.vim'
