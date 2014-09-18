@@ -51,7 +51,7 @@ syntax on        "Habilita sintaxe colorida
 colorscheme vividchalk "Define um schema de cores
 
 "==================================================================================
-" Configurando o plugin ERDTREE
+" Configurando o plugin NERDTREE
 "==================================================================================
 " Atalho para habilitar ou desabilitar plugin com: CTRL + N
 map <C-n> :NERDTreeToggle<CR>
@@ -60,6 +60,11 @@ map <C-n> :NERDTreeToggle<CR>
 " Configurando o plugin CTRLP
 "==================================================================================
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+"==================================================================================
+" Configurando Atalhos
+"==================================================================================
+map <C-l> :set cursorcolumn!<Bar>set cursorline!<CR>
 
 "==================================================================================
 " Configurando o plugin POWERLINE
