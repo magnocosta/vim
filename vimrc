@@ -21,8 +21,8 @@ Bundle 'msanders/snipmate.vim'
 "==================================================================================
 set ai           "Auto-identação
 set expandtab    "Criar espaco ano lugar da tabulação
-set shiftwidth=4 "Cria 4 espaçoes na tabulação
-set tabstop=4    "Altera largura da tabulação
+set shiftwidth=2 "Cria 2 espaçoes na tabulação
+set tabstop=2    "Altera largura da tabulação
 set sm           "Mostra o inicio de um bloco recem fechado
 
 "==================================================================================
