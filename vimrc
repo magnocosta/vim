@@ -15,6 +15,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'bling/vim-airline'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'msanders/snipmate.vim'
+Bundle 'tpope/vim-fugitive'
 
 "==================================================================================
 " Configurando a identação do editor
