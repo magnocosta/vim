@@ -72,8 +72,9 @@ map <C-l> :set cursorcolumn!<Bar>set cursorline!<CR>
 set laststatus=2
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#buffer_min_count=2
+let g:airline#extensions#tabline#tab_min_count=2
 set t_Co=256
-
 
 "==================================================================================
 " Configurando o plugin SNIPMATE
@@ -81,3 +82,13 @@ set t_Co=256
 autocmd BufNewFile,BufRead *.html.erb set filetype=html
 autocmd BufNewFile,BufRead *.js.* set filetype=js
 
+"==================================================================================
+" Configurando a navegacao em tab
+"==================================================================================
+set hidden
+let mapleader = ","
+nnoremap <leader>t :tabnew<cr>
+nnoremap <leader>e :tabedit
+nnoremap <leader>c :tabclose<cr>
+nnoremap <leader>n :tabnext<cr>
+nnoremap <leader>p :tabprevious<cr>
