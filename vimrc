@@ -110,3 +110,7 @@ nnoremap <leader>gr :Gread<cr>
 nnoremap <leader>grm :Gremove<cr>
 nnoremap <leader>gp :Git push
 
+"==================================================================================
+" Configurando Atalho patra formatar codigo
+"==================================================================================
+nnoremap <leader>f gg=G<cr>
