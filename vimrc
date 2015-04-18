@@ -62,6 +62,7 @@ map <C-n> :NERDTreeToggle<CR>
 " Configurando o plugin CTRLP
 "==================================================================================
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+set wildignore+=*/tmp/*,*/bin/*,*/coverage/*,*/log/*,*/public/uploads/* 
 
 "==================================================================================
 " Configurando Atalhos
