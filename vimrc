@@ -17,6 +17,7 @@ Bundle 'tomtom/tcomment_vim'
 Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-unimpaired'
 
 "==================================================================================
 " Configurando a identação do editor
