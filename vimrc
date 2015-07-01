@@ -18,6 +18,7 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-unimpaired'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 "==================================================================================
 " Configurando a identação do editor
@@ -112,6 +113,11 @@ nnoremap <leader>gm :Gmove
 nnoremap <leader>gr :Gread<cr>
 nnoremap <leader>grm :Gremove<cr>
 nnoremap <leader>gp :Git push
+
+"==================================================================================
+" Configurando indent guides
+"==================================================================================
+let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
 
 "==================================================================================
 " Configurando Atalho patra formatar codigo
