@@ -15,10 +15,14 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'bling/vim-airline'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'msanders/snipmate.vim'
-Bundle 'tpope/vim-fugitive'
 Bundle 'mileszs/ack.vim'
-Bundle 'tpope/vim-unimpaired'
 Bundle 'nathanaelkane/vim-indent-guides'
+Plugin 'Raimondi/delimitMate'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
+
 
 "==================================================================================
 " Configurando a identação do editor
@@ -82,10 +86,13 @@ let g:airline#extensions#tabline#tab_min_count=2
 set t_Co=256
 
 "==================================================================================
-" Configurando o plugin SNIPMATE
+" Configurando o filetype
 "==================================================================================
 autocmd BufNewFile,BufRead *.html.erb set filetype=html
 autocmd BufNewFile,BufRead *.js.* set filetype=js
+autocmd BufNewFile,BufRead Gemfile set filetype=ruby
+autocmd BufRead,BufNewFile *.md set filetype=markdown
+autocmd BufRead,BufNewFile *.json set filetype=js
 
 "==================================================================================
 " Configurando a navegacao em tab
