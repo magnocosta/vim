@@ -22,6 +22,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
+Plugin 'slim-template/vim-slim'
 
 
 "==================================================================================
@@ -127,6 +128,8 @@ nnoremap <leader>gp :Git push
 let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
 
 "==================================================================================
-" Configurando Atalho patra formatar codigo
+" Outros Atalhos patra formatar codigo
 "==================================================================================
 nnoremap <leader>f gg=G<cr>
+nnoremap <leader>s :Ack 
+
