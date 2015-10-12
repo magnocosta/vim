@@ -7,7 +7,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-filetype indent on
+filetype plugin indent on
 
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
@@ -94,6 +94,7 @@ autocmd BufNewFile,BufRead *.js.* set filetype=js
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 autocmd BufRead,BufNewFile *.json set filetype=js
+autocmd BufRead,BufNewFile *.slim set filetype=slim
 
 "==================================================================================
 " Configurando a navegacao em tab
