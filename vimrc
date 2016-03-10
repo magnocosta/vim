@@ -23,6 +23,7 @@ Bundle 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'slim-template/vim-slim'
+Plugin 'rizzatti/dash.vim'
 
 
 "==================================================================================
@@ -133,4 +134,9 @@ let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
 "==================================================================================
 nnoremap <leader>f gg=G<cr>
 nnoremap <leader>s :Ack 
+
+"==================================================================================
+" Configurando DashVim atalhos
+"==================================================================================
+:nmap <silent> <leader>d <Plug>DashSearch
 
