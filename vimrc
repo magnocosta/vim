@@ -24,6 +24,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'slim-template/vim-slim'
 Plugin 'rizzatti/dash.vim'
+Plugin 'ekalinin/Dockerfile.vim'
 
 
 "==================================================================================
