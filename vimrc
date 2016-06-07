@@ -97,6 +97,7 @@ autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 autocmd BufRead,BufNewFile *.json set filetype=json
 autocmd BufRead,BufNewFile *.slim set filetype=slim
+autocmd BufRead,BufNewFile Dockerfile set filetype=dockerfile
 
 "==================================================================================
 " Configurando a navegacao em tab
