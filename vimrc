@@ -24,8 +24,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'slim-template/vim-slim'
 Plugin 'rizzatti/dash.vim'
+Plugin 'elzr/vim-json'
 Plugin 'ekalinin/Dockerfile.vim'
-
 
 "==================================================================================
 " Configurando a identação do editor
@@ -95,7 +95,7 @@ autocmd BufNewFile,BufRead *.html.erb set filetype=html
 autocmd BufNewFile,BufRead *.js.* set filetype=js
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 autocmd BufRead,BufNewFile *.md set filetype=markdown
-autocmd BufRead,BufNewFile *.json set filetype=js
+autocmd BufRead,BufNewFile *.json set filetype=json
 autocmd BufRead,BufNewFile *.slim set filetype=slim
 
 "==================================================================================
