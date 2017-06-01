@@ -60,6 +60,7 @@ set number       "Exibe o numero de cada linha
 set title        "No titulo da janela exibe o nome do arquivo aberto
 syntax on        "Habilita sintaxe colorida
 colorscheme vividchalk "Define um schema de cores
+set mouse=nvi    "Habilitando o uso do mouse
 
 "==================================================================================
 " Configurando o plugin NERDTREE
