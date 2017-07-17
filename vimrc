@@ -67,6 +67,7 @@ set mouse=nvi    "Habilitando o uso do mouse
 "==================================================================================
 " Atalho para habilitar ou desabilitar plugin com: CTRL + N
 map <C-n> :NERDTreeToggle<CR>
+map <C-f> :NERDTreeFind<CR>
 
 "==================================================================================
 " Configurando o plugin CTRLP
