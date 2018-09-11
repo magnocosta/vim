@@ -26,6 +26,8 @@ Plugin 'slim-template/vim-slim'
 Plugin 'rizzatti/dash.vim'
 Plugin 'elzr/vim-json'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'wakatime/vim-wakatime'
+Plugin 'tpope/vim-rhubarb'
 
 "==================================================================================
 " Configurando a identação do editor
@@ -116,7 +118,7 @@ nnoremap <leader>p :tabprevious<cr>
 "==================================================================================
 " Configurando Fugitive atalhos
 "==================================================================================
-nnoremap <leader>gd :Gdiff<cr>
+nnoremap <leader>gd :Gvdiff<cr>
 nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gw :Gwrite<cr>
 nnoremap <leader>ga :Gadd<cr>
@@ -137,7 +139,7 @@ let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
 " Outros Atalhos patra formatar codigo
 "==================================================================================
 nnoremap <leader>f gg=G<cr>
-nnoremap <leader>s :Ack 
+nnoremap <leader>a :Ack 
 
 "==================================================================================
 " Configurando DashVim atalhos
